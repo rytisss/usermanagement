@@ -1,0 +1,80 @@
+<mxfile host="app.diagrams.net" modified="2024-07-29T20:00:47.128Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="e7Rhk5bhL3uKr93Fp_A-" version="24.6.2" type="device" pages="2">
+  <diagram name="Gateway" id="TY__wcI9z7hqDp5VJLcA">
+    <mxGraphModel dx="1026" dy="587" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="-bbA289fVXCnmhd6T1xk-2" value="" style="points=[[0.35,0,0],[0.98,0.51,0],[1,0.71,0],[0.67,1,0],[0,0.795,0],[0,0.65,0]];verticalLabelPosition=bottom;sketch=0;html=1;verticalAlign=top;aspect=fixed;align=center;pointerEvents=1;shape=mxgraph.cisco19.user;fillColor=#505050;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="160" y="140" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="-bbA289fVXCnmhd6T1xk-3" value="" style="points=[[0.35,0,0],[0.98,0.51,0],[1,0.71,0],[0.67,1,0],[0,0.795,0],[0,0.65,0]];verticalLabelPosition=bottom;sketch=0;html=1;verticalAlign=top;aspect=fixed;align=center;pointerEvents=1;shape=mxgraph.cisco19.user;fillColor=#505050;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="160" y="210" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="-bbA289fVXCnmhd6T1xk-4" value="" style="points=[[0.35,0,0],[0.98,0.51,0],[1,0.71,0],[0.67,1,0],[0,0.795,0],[0,0.65,0]];verticalLabelPosition=bottom;sketch=0;html=1;verticalAlign=top;aspect=fixed;align=center;pointerEvents=1;shape=mxgraph.cisco19.user;fillColor=#505050;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="160" y="280" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="-bbA289fVXCnmhd6T1xk-7" value="Internet" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.internet_2;fillColor=#505050;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="280" y="197" width="79.5" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="-bbA289fVXCnmhd6T1xk-8" value="Reverse proxy server - NGINX" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#505050;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.servers.reverse_proxy;" vertex="1" parent="1">
+          <mxGeometry x="430" y="180" width="70" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="-bbA289fVXCnmhd6T1xk-9" value="Users" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="155" y="340" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-bbA289fVXCnmhd6T1xk-10" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="130" width="70" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="-bbA289fVXCnmhd6T1xk-11" value="Application server" style="sketch=0;aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#505050;shape=mxgraph.mscae.enterprise.application_server" vertex="1" parent="1">
+          <mxGeometry x="610" y="180" width="86" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="-bbA289fVXCnmhd6T1xk-14" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;" edge="1" parent="1" source="-bbA289fVXCnmhd6T1xk-10">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="270" y="160" as="sourcePoint" />
+            <mxPoint x="280" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-bbA289fVXCnmhd6T1xk-15" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="-bbA289fVXCnmhd6T1xk-10">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="350" y="430" as="sourcePoint" />
+            <mxPoint x="280" y="235" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-bbA289fVXCnmhd6T1xk-16" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.75;exitDx=0;exitDy=0;" edge="1" parent="1" source="-bbA289fVXCnmhd6T1xk-10" target="-bbA289fVXCnmhd6T1xk-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="270" y="370" as="sourcePoint" />
+            <mxPoint x="280" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-bbA289fVXCnmhd6T1xk-17" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.7;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="-bbA289fVXCnmhd6T1xk-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="130" as="sourcePoint" />
+            <mxPoint x="420" y="235" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-bbA289fVXCnmhd6T1xk-18" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="510" y="240" as="sourcePoint" />
+            <mxPoint x="600" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="QrIO_hDV1YMrq_p19MUD" name="User Management">
+    <mxGraphModel dx="2280" dy="1304" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="jBLF5qiCZ_FyqJGRMsW4-1" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fced6562d-3be6-4dd4-a141-fed9e6b02182_1600x1226.png;" vertex="1" parent="1">
+          <mxGeometry x="10" y="50" width="1200" height="920" as="geometry" />
+        </mxCell>
+        <UserObject label="https://blog.bytebytego.com/p/password-session-cookie-token-jwt" link="https://blog.bytebytego.com/p/password-session-cookie-token-jwt" id="jBLF5qiCZ_FyqJGRMsW4-2">
+          <mxCell style="text;whiteSpace=wrap;" vertex="1" parent="1">
+            <mxGeometry x="840" y="1030" width="380" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
